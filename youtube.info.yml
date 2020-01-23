@@ -1,0 +1,5 @@
+name: Youtube
+type: module
+description: test module with youtube video
+core: 8.x
+package: Custom

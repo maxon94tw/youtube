@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function youtube_theme()
+{
+  return array(
+    'youtube_video_formatter' => array(
+      'variables' => array('width' => 600, 'height' => 450, 'video_id' => NULL),
+    ),
+  );
+}
